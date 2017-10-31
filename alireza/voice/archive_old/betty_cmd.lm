@@ -1,0 +1,140 @@
+Language model created by QuickLM on Thu Jun 30 06:42:58 EDT 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 22 sentences and 32 words
+
+\data\
+ngram 1=32
+ngram 2=52
+ngram 3=33
+
+\1-grams:
+-0.8451 </s> -0.3010
+-0.8451 <s> -0.2341
+-2.1875 AM -0.2982
+-2.1875 APOLOGISE -0.2341
+-2.1875 ARE -0.2954
+-2.1875 BACK -0.2341
+-2.1875 BACKWARD -0.2341
+-1.8865 BE -0.2954
+-2.1875 BETTY -0.2341
+-2.1875 BYE -0.2341
+-2.1875 CHEESE -0.2341
+-2.1875 FOLLOW -0.2341
+-2.1875 FORWARD -0.2341
+-2.1875 HAPPY -0.2341
+-2.1875 HELLO -0.2341
+-2.1875 HI -0.2341
+-2.1875 HOW -0.2982
+-1.8865 I -0.2954
+-2.1875 INTRODUCE -0.2982
+-2.1875 LEFT -0.2341
+-2.1875 NO -0.2341
+-2.1875 PHOTO -0.2341
+-2.1875 RIGHT -0.2341
+-2.1875 SAD -0.2341
+-2.1875 SAY -0.2982
+-2.1875 SORRY -0.2341
+-2.1875 STOP -0.2341
+-2.1875 TAKE -0.2982
+-2.1875 THANK -0.2954
+-2.1875 YES -0.2341
+-1.8865 YOU -0.2341
+-2.1875 YOURSELF -0.2341
+
+\2-grams:
+-1.6435 <s> BACK 0.0000
+-1.6435 <s> BACKWARD 0.0000
+-1.3424 <s> BE 0.0000
+-1.6435 <s> BETTY 0.0000
+-1.6435 <s> BYE 0.0000
+-1.6435 <s> FOLLOW 0.0000
+-1.6435 <s> FORWARD 0.0000
+-1.6435 <s> HELLO 0.0000
+-1.6435 <s> HI 0.0000
+-1.6435 <s> HOW 0.0000
+-1.3424 <s> I 0.0000
+-1.6435 <s> INTRODUCE 0.0000
+-1.6435 <s> LEFT 0.0000
+-1.6435 <s> NO 0.0000
+-1.6435 <s> RIGHT 0.0000
+-1.6435 <s> SAY 0.0000
+-1.6435 <s> STOP 0.0000
+-1.6435 <s> TAKE 0.0000
+-1.6435 <s> THANK 0.0000
+-1.6435 <s> YES 0.0000
+-0.3010 AM SORRY 0.0000
+-0.3010 APOLOGISE </s> -0.3010
+-0.3010 ARE YOU 0.0000
+-0.3010 BACK </s> -0.3010
+-0.3010 BACKWARD </s> -0.3010
+-0.6021 BE HAPPY 0.0000
+-0.6021 BE SAD 0.0000
+-0.3010 BETTY </s> -0.3010
+-0.3010 BYE </s> -0.3010
+-0.3010 CHEESE </s> -0.3010
+-0.3010 FOLLOW </s> -0.3010
+-0.3010 FORWARD </s> -0.3010
+-0.3010 HAPPY </s> -0.3010
+-0.3010 HELLO </s> -0.3010
+-0.3010 HI </s> -0.3010
+-0.3010 HOW ARE 0.0000
+-0.6021 I AM 0.0000
+-0.6021 I APOLOGISE 0.0000
+-0.3010 INTRODUCE YOURSELF 0.0000
+-0.3010 LEFT </s> -0.3010
+-0.3010 NO </s> -0.3010
+-0.3010 PHOTO </s> -0.3010
+-0.3010 RIGHT </s> -0.3010
+-0.3010 SAD </s> -0.3010
+-0.3010 SAY CHEESE 0.0000
+-0.3010 SORRY </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.3010 TAKE PHOTO 0.0000
+-0.3010 THANK YOU 0.0000
+-0.3010 YES </s> -0.3010
+-0.3010 YOU </s> -0.3010
+-0.3010 YOURSELF </s> -0.3010
+
+\3-grams:
+-0.3010 <s> BACK </s>
+-0.3010 <s> BACKWARD </s>
+-0.6021 <s> BE HAPPY
+-0.6021 <s> BE SAD
+-0.3010 <s> BETTY </s>
+-0.3010 <s> BYE </s>
+-0.3010 <s> FOLLOW </s>
+-0.3010 <s> FORWARD </s>
+-0.3010 <s> HELLO </s>
+-0.3010 <s> HI </s>
+-0.3010 <s> HOW ARE
+-0.6021 <s> I AM
+-0.6021 <s> I APOLOGISE
+-0.3010 <s> INTRODUCE YOURSELF
+-0.3010 <s> LEFT </s>
+-0.3010 <s> NO </s>
+-0.3010 <s> RIGHT </s>
+-0.3010 <s> SAY CHEESE
+-0.3010 <s> STOP </s>
+-0.3010 <s> TAKE PHOTO
+-0.3010 <s> THANK YOU
+-0.3010 <s> YES </s>
+-0.3010 AM SORRY </s>
+-0.3010 ARE YOU </s>
+-0.3010 BE HAPPY </s>
+-0.3010 BE SAD </s>
+-0.3010 HOW ARE YOU
+-0.3010 I AM SORRY
+-0.3010 I APOLOGISE </s>
+-0.3010 INTRODUCE YOURSELF </s>
+-0.3010 SAY CHEESE </s>
+-0.3010 TAKE PHOTO </s>
+-0.3010 THANK YOU </s>
+
+\end\

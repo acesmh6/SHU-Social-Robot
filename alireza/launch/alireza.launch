@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="alireza" type="behaviour_handler" name="behaviour_handler" output="screen"/>
+	<!--<node pkg="alireza" type="preacher" name="preacher"/>-->
+	<node pkg="alireza" type="visual_feedback" name="visual_feedback" output="screen"/>
+	<node pkg="joy" type="joy_node" name="joy_node"/>
+	<node pkg="hokuyo_node" type="hokuyo_node" name="hokuyo_node"/>
+  <!--<node pkg="usb_cam" type="usb_cam_node" name="camera" output="screen">
+    <param name="video_device" type="string" value="/dev/video0" />
+  </node>
+	<node pkg="facedetector" type="detector" name="detector"/>-->
+</launch>
+
+
