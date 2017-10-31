@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+	<!--<node pkg="alireza" type="preacher" name="preacher"/>-->
+	<include file="$(find alireza)/launch/betty_cmd.launch"/>
+	<include file="$(find alireza)/launch/alireza.launch"/>
+	<include file="$(find anthony)/launch/face_rec.launch"/>
+	<include file="$(find anthony)/launch/touchscreen_command.launch"/>
+	<node pkg="anthony" type="face_detector_node" name="Face_Detector" output="screen" launch-prefix="gnome-terminal --command"/>
+	<node pkg="wifi" type="wifi_node" name="Wifi_node"  output="screen" launch-prefix="gnome-terminal --command"/>
+</launch>

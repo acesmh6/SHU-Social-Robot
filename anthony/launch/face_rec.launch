@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="face_recognition" type="Fserver" name="face_recognition" output="screen" />
+	<node pkg="face_recognition" type="Fclient" name="face_rec_client" output="screen" />
+	<node pkg="usb_cam" type="usb_cam_node" name="usb_cam" output="screen">
+    <param name="video_device" type="string" value="/dev/video0" />
+  </node>
+</launch>
+
+

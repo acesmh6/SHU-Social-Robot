@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<node pkg="anthony" type="touchscreen_reader_node" name="Touchscreen_Reader"/>
+	<node pkg="anthony" type="touch_command_node" name="Touch_Command_Recognition" output="screen"/>
+</launch>
+
